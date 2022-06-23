@@ -1,0 +1,66 @@
+.teamDiv{
+  background-color: #FFF;
+  padding-top: 61px;
+}
+
+.mainteam{
+  color: #575756;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  margin-left: 66px;
+}
+
+.teamMenu{
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 179px;
+  width: 385px;
+}
+
+.teamMenu h3{
+  padding-bottom: 43px;
+}
+
+.teamMenu h2{
+  padding-bottom: 36px;
+}
+
+.teamMenu p{
+  padding-bottom: 41px;
+}
+
+.teamMenu button{
+  font-family: 'Segoe UI','Bold';
+  color: #FFF;
+  background-color: #E42313;
+  border-radius: 10px;
+  width: 144px;
+  height: 45px;
+  font-weight: bold;
+}
+
+@media (max-width: 1130px){
+  .mainteam{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .teamMenu{
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .teamMenu button{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 686px){
+  .mainteam img{
+    width: 20em;
+  }
+}

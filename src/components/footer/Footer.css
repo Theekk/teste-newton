@@ -1,0 +1,53 @@
+.footerPage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #575756;
+}
+
+.footerLink{
+  margin-top: 51px;
+  display: flex;
+}
+
+.footerLink p{
+  padding: 20px;
+}
+
+.pages{
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.footerPage p{
+  color: #FFF;
+}
+
+.links{
+  padding: 7.5px;
+}
+
+.divisionLine{
+  color: #FFF;
+  padding: 20px;
+}
+
+.direitos{
+  padding-bottom: 28px;
+}
+
+@media (max-width: 1130px){
+  .footerPage{
+    margin-top: 40px;
+  }
+
+  .divisionLine{
+    display: none;
+  }
+  
+  .pages{
+    margin-left: 0;
+  }
+}

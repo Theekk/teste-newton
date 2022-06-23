@@ -1,0 +1,130 @@
+.workDiv{
+  background-color: #FFF;
+  padding-top: 61px;
+  position: relative;
+}
+
+.imgRelative{
+  margin: auto;
+}
+
+.mainWork{
+  position: absolute;
+  color: #575756;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  margin-left: 66px;
+
+  top: 0;
+  bottom: 0;
+  left: 120px;
+  right: 0;
+}
+
+.workMenu{
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 179px;
+  width: 385px;
+}
+
+.workMenu h3{
+  padding-bottom: 43px;
+}
+
+.workMenu h2{
+  padding-bottom: 36px;
+}
+
+.workMenu p{
+  padding-bottom: 41px;
+}
+
+.workMenu button{
+  font-family: 'Segoe UI','Bold';
+  color: #FFF;
+  background-color: #E42313;
+  border-radius: 10px;
+  width: 144px;
+  height: 45px;
+  font-weight: bold;
+}
+
+.spacer{
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer span img {
+  border: 1px solid hsla(60, 19%, 42%, 0.5);
+}
+
+/* seta invertida */
+#right{
+  margin-left: 60px;
+  transform: rotate(180deg);
+}
+
+
+#workImg{
+  position: relative;
+}
+
+#crossImg {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+
+  width: 60px;
+}
+
+@media (max-width: 1476px){
+  .workDiv{
+    margin-top: 61px;
+  }
+  
+  .imgRelative{
+    width: 15em;
+  }
+
+  #workImg{
+    width: 30em;
+  }
+}
+
+@media (max-width: 1130px){
+  .workMenu{
+    padding-right: 0;
+  }
+
+  .mainWork{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #crossImg{
+    display: none;
+  }
+}
+
+@media (max-width: 686px){
+  #workImg{
+    width: 20em;
+  }
+
+  #crossImg{
+    display: none;
+  }
+
+  .mainWork{
+    margin-left: 0;
+  }
+  .workMenu{
+    width: 100%;
+  }
+}

@@ -1,0 +1,66 @@
+.aboutDiv{
+  position: relative;
+  background-color: #FFF;
+  padding-top: 60px;
+}
+
+.mainAbout{
+  color: #575756;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.aboutMenu{
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 108px;
+  width: 385px;
+}
+
+.aboutMenu h3{
+  padding-bottom: 43px;
+}
+
+.aboutMenu h2{
+  padding-bottom: 36px;
+}
+
+.aboutMenu p{
+  padding-bottom: 41px;
+}
+
+.aboutMenu button{
+  font-family: 'Segoe UI','Bold';
+  color: #FFF;
+  background-color: #E42313;
+  border-radius: 10px;
+  width: 144px;
+  height: 45px;
+  font-weight: bold;
+}
+
+@media (max-width: 1130px){
+  .mainAbout{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutMenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 686px){
+  .mainAbout img{
+    width: 20em;
+  }
+
+  .aboutMenu {
+    padding-left: 0;
+  }
+}
